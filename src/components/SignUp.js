@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import '../style/SignUp.css';
 
 const SignUp = (props) => {
     const [password, setPassword] = useState('')
@@ -35,6 +36,10 @@ const SignUp = (props) => {
                 <input type= "password" onChange={changeConfirmedPassword} value={confirmPassword} />
                 <input type= "submit" />
             </form>
+
+            <div>
+                <Link to='/'> <button>Return Home</button></Link>
+            </div>
         </div>
     )
 
