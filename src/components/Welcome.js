@@ -9,6 +9,7 @@ const Welcome = () =>{
 
             <div>
                 <Link to="about"> <button>About Me</button></Link>
+                <Link to="sign-up"><button>Sign Up</button></Link>
             </div>
         </div>
     )
